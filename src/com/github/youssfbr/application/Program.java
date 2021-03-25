@@ -48,15 +48,16 @@ public class Program {
 		else {
 			System.out.print("Enter the percentage: ");
 			double percent = sc.nextDouble();
-			list.get(pos).increaseSalary(percent);
-
-			System.out.println();
-			System.out.println("List of employees:");
-			
-			for (Employee emp : list) {
-				System.out.println(emp);
-			}			
+			list.get(pos).increaseSalary(percent);		
 		}
+		
+		System.out.println();
+		System.out.println("List of employees:");
+		
+		for (Employee emp : list) {
+			System.out.println(emp);
+		}	
+		
 		sc.close();
 	}
 	
