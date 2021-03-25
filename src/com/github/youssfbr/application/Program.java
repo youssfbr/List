@@ -60,9 +60,7 @@ public class Program {
 		System.out.println();
 		System.out.println("List of employees:");
 		
-		for (Employee empl : list) {
-			System.out.println(empl);
-		}	
+		list.forEach(result -> System.out.println(result));
 		
 		sc.close();
 	}
